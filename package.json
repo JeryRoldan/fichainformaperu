@@ -1,0 +1,19 @@
+{
+  "name": "formulario-ficha---legajo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "pdfkit": "^0.20.1",
+    "xlsx": "^0.18.5"
+  }
+}
