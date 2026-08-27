@@ -62,7 +62,7 @@
   </main><div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script>
     const form=document.querySelector('#staffForm'),toast=document.querySelector('#toast');
-    const company=location.pathname.toLowerCase().startsWith('/informaperu')?'informaperu':'inre';
+    const company=location.pathname.toLowerCase().startsWith('/inre')?'inre':'informaperu';
     const brands={inre:{name:'INRE',color:'#304983',dark:'#202f5c',head:'<img class="brandlogo" src="/assets/logo-inre.png" alt="INRE">'},informaperu:{name:'InformaPerú',color:'#254997',dark:'#172f68',head:'<img class="brandlogo" src="/assets/logo-informaperu.png" alt="Informa Perú">'}};
     const brand=brands[company];document.documentElement.style.setProperty('--brand',brand.color);document.documentElement.style.setProperty('--brand2',brand.dark);document.querySelector('#brandHead').innerHTML=brand.head;document.querySelector('#companyLabel').textContent=brand.name+' · Recursos Humanos';document.title='Ficha de datos | '+brand.name;
     const exp=document.querySelector('#experiencias');
